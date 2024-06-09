@@ -1,0 +1,31 @@
+#GFG {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+  
+        #GFG::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+  
+            /* Specify the background image to be used */
+            background-image: url('img/bg1.jpg');
+            background-size: cover;
+  
+            /* Specify the background image */
+            opacity: 0.2;
+        }
+.container {
+    width: 40%;
+    margin-top: 2%;
+}
+
+
+.card {
+    padding: 50px;
+}
